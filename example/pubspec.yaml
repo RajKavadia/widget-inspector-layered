@@ -39,7 +39,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  widgetscape_devtools:
+  widget_inspector_layered:
     path: ../
 
 # For information on the generic Dart part of this file, see the

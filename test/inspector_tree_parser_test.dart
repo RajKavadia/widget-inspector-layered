@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:widgetscape_devtools/src/inspector/inspector_query.dart';
-import 'package:widgetscape_devtools/src/inspector/inspector_tree_parser.dart';
-import 'package:widgetscape_devtools/src/model/widget_scene_node.dart';
+import 'package:widget_inspector_layered/src/inspector/inspector_query.dart';
+import 'package:widget_inspector_layered/src/inspector/inspector_tree_parser.dart';
+import 'package:widget_inspector_layered/src/model/widget_scene_node.dart';
 
 void main() {
   test('parses inspector summary tree and layout rects', () {

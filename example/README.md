@@ -1,4 +1,4 @@
-# widgetscape_example
+# widget-inspector-layered example
 
 A new Flutter project.
 

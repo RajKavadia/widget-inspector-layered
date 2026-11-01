@@ -1,4 +1,4 @@
-# Widgetscape
+# widget-inspector-layered
 
 Flutter inspector that turns a live widget tree into a **3D map of the real screen**.
 
@@ -17,7 +17,7 @@ Repository: [github.com/RajKavadia/widget-inspector-layered](https://github.com/
 
 ![3D widget map in DevTools](screenshots/02-devtools-widgetscape.png)
 
-![Multi-layer Widgetscape](screenshots/03-layered-orbit.png)
+![Multi-layer inspector](screenshots/03-layered-orbit.png)
 
 ![Exploded widget layers](screenshots/04-layers-only.png)
 
@@ -25,11 +25,11 @@ Repository: [github.com/RajKavadia/widget-inspector-layered](https://github.com/
 
 ## Use in an app
 
-Add a path or pub dependency, then open DevTools while the app is running and choose the **Widgetscape** tab.
+Add a path or pub dependency, then open DevTools while the app is running and choose the **widget-inspector-layered** tab.
 
 ```yaml
 dev_dependencies:
-  widgetscape_devtools: ^1.0.1
+  widget_inspector_layered: ^1.0.0
 ```
 
 ```bash
@@ -42,10 +42,10 @@ Hard-refresh DevTools after rebuilding the extension, then **Refresh snapshot**.
 ## MCP
 
 ```bash
-dart run widgetscape_mcp --vm-uri ws://127.0.0.1:PORT/TOKEN=/ws
+dart run widget_inspector_layered --vm-uri ws://127.0.0.1:PORT/TOKEN=/ws
 ```
 
-Or set `WIDGETSCAPE_VM_URI`. Tools: `widgetscape_connect`, `widgetscape_snapshot`, `widgetscape_pick`, `widgetscape_select`, `widgetscape_breadcrumb`, `widgetscape_save_screenshot`.
+Or set `WIDGET_INSPECTOR_LAYERED_VM_URI` / `WIDGETSCAPE_VM_URI`. Tools: `widgetscape_connect`, `widgetscape_snapshot`, `widgetscape_pick`, `widgetscape_select`, `widgetscape_breadcrumb`, `widgetscape_save_screenshot`.
 
 See `mcp/cursor.example.json`.
 

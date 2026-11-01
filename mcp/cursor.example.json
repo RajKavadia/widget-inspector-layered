@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "widgetscape": {
+    "widget-inspector-layered": {
       "command": "dart",
       "args": [
         "run",

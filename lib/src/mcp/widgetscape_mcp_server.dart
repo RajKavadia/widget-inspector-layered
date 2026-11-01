@@ -15,6 +15,7 @@ class WidgetscapeMcpServer {
     Stdin? input,
     Stdout? output,
   })  : _defaultVmUri = defaultVmUri ??
+            Platform.environment['WIDGET_INSPECTOR_LAYERED_VM_URI'] ??
             Platform.environment['WIDGETSCAPE_VM_URI'] ??
             Platform.environment['VM_SERVICE_URI'],
         _stdin = input ?? stdin,
@@ -110,7 +111,7 @@ class WidgetscapeMcpServer {
           'capabilities': {
             'tools': {'listChanged': false},
           },
-          'serverInfo': {'name': 'widgetscape', 'version': '1.0.0'},
+          'serverInfo': {'name': 'widget-inspector-layered', 'version': '1.0.0'},
         };
       case 'notifications/initialized':
       case 'initialized':
@@ -211,7 +212,7 @@ class WidgetscapeMcpServer {
     final resolved = uri ?? _defaultVmUri;
     if (resolved == null || resolved.isEmpty) {
       throw StateError(
-        'Pass vmServiceUri or set WIDGETSCAPE_VM_URI / VM_SERVICE_URI.',
+        'Pass vmServiceUri or set WIDGET_INSPECTOR_LAYERED_VM_URI / VM_SERVICE_URI.',
       );
     }
     await _vm?.dispose();
@@ -292,7 +293,7 @@ class WidgetscapeMcpServer {
     {
       'name': 'widgetscape_connect',
       'description':
-          'Connect Widgetscape to a running Flutter VM service (ws:// or http://).',
+          'Connect widget-inspector-layered to a running Flutter VM service (ws:// or http://).',
       'inputSchema': {
         'type': 'object',
         'properties': {

@@ -1,5 +1,5 @@
-/// Widgetscape DevTools extension and MCP server.
-library widgetscape_devtools;
+/// widget-inspector-layered DevTools extension and MCP server.
+library widget_inspector_layered;
 
 export 'src/inspector/inspector_capture.dart';
 export 'src/inspector/inspector_query.dart';

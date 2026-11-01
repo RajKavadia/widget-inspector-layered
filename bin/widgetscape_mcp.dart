@@ -1,4 +1,4 @@
-import 'package:widgetscape_devtools/src/mcp/widgetscape_mcp_server.dart';
+import 'package:widget_inspector_layered/src/mcp/widgetscape_mcp_server.dart';
 
 Future<void> main(List<String> args) async {
   String? uri;

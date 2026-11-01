@@ -1,6 +1,6 @@
 {
-    "name": "widgetscape_devtools",
-    "short_name": "widgetscape_devtools",
+    "name": "widget-inspector-layered",
+    "short_name": "widget-inspector-layered",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

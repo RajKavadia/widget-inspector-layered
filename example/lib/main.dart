@@ -10,7 +10,7 @@ class WidgetscapeExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Widgetscape Example',
+      title: 'widget-inspector-layered',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -26,14 +26,14 @@ class DemoHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Widgetscape demo'),
+        title: const Text('widget-inspector-layered'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Debug this app and open the Widgetscape DevTools extension.',
+              'Debug this app and open the widget-inspector-layered DevTools extension.',
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),

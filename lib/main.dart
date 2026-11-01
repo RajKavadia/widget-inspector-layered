@@ -25,7 +25,7 @@ class WidgetscapeHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('3D Widget Tree'),
+        title: const Text('widget-inspector-layered'),
       ),
       body: const TreeScapePanel(),
     );

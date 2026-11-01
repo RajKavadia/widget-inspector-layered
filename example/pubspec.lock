@@ -525,13 +525,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
-  widgetscape_devtools:
+  widget_inspector_layered:
     dependency: "direct dev"
     description:
       path: ".."
       relative: true
     source: path
-    version: "1.0.0+1"
+    version: "1.0.0"
   yaml:
     dependency: transitive
     description:
