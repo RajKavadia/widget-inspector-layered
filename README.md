@@ -11,13 +11,25 @@ It ships two surfaces:
 
 Repository: [github.com/RajKavadia/widget-inspector-layered](https://github.com/RajKavadia/widget-inspector-layered)
 
+## Screenshots
+
+![Example Flutter app](screenshots/01-example-app.png)
+
+![3D widget map in DevTools](screenshots/02-devtools-widgetscape.png)
+
+![Multi-layer Widgetscape](screenshots/03-layered-orbit.png)
+
+![Exploded widget layers](screenshots/04-layers-only.png)
+
+![Single-layer mode](screenshots/05-single-layer.png)
+
 ## Use in an app
 
 Add a path or pub dependency, then open DevTools while the app is running and choose the **Widgetscape** tab.
 
 ```yaml
 dev_dependencies:
-  widgetscape_devtools: ^1.0.0
+  widgetscape_devtools: ^1.0.1
 ```
 
 ```bash

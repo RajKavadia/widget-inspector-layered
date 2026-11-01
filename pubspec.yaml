@@ -2,7 +2,7 @@ name: widgetscape_devtools
 description: >-
   Flutter DevTools extension and MCP server that maps a live widget tree
   into a 3D screenshot-aligned layer map.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/RajKavadia/widget-inspector-layered
 repository: https://github.com/RajKavadia/widget-inspector-layered
 issue_tracker: https://github.com/RajKavadia/widget-inspector-layered/issues
@@ -11,6 +11,17 @@ topics:
   - devtools
   - inspector
   - mcp
+screenshots:
+  - description: Example Flutter app inspected by Widgetscape.
+    path: screenshots/01-example-app.png
+  - description: 3D widget map in Flutter DevTools with the live screenshot in front.
+    path: screenshots/02-devtools-widgetscape.png
+  - description: Multi-layer Widgetscape view inside DevTools.
+    path: screenshots/03-layered-orbit.png
+  - description: Exploded widget layers in the Widgetscape map.
+    path: screenshots/04-layers-only.png
+  - description: Single-layer mode aligned to the screenshot.
+    path: screenshots/05-single-layer.png
 
 environment:
   sdk: ^3.13.2

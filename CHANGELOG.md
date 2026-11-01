@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Add product screenshots for GitHub and pub.dev
+
 ## 1.0.0
 
 - 3D Widgetscape DevTools extension: screenshot-aligned widget layers
