@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "widgetscape": {
+      "command": "dart",
+      "args": [
+        "run",
+        "bin/widgetscape_mcp.dart",
+        "--vm-uri",
+        "ws://127.0.0.1:REPLACE/ws"
+      ],
+      "cwd": "widgetscape_devtools"
+    }
+  }
+}
