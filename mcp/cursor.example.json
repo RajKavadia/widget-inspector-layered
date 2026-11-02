@@ -6,9 +6,12 @@
         "run",
         "bin/widgetscape_mcp.dart",
         "--vm-uri",
-        "ws://127.0.0.1:REPLACE/ws"
+        "ws://127.0.0.1:REPLACE_PORT/REPLACE_TOKEN=/ws"
       ],
-      "cwd": "widgetscape_devtools"
+      "cwd": "/absolute/path/to/widget-inspector-layered",
+      "env": {
+        "WIDGET_INSPECTOR_LAYERED_VM_URI": "ws://127.0.0.1:REPLACE_PORT/REPLACE_TOKEN=/ws"
+      }
     }
   }
 }
