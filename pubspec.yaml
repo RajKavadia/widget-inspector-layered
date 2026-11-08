@@ -2,7 +2,7 @@ name: widget_inspector_layered
 description: >-
   Flutter DevTools extension and MCP server that maps a live widget tree
   into a 3D screenshot-aligned layer map (widget-inspector-layered).
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/RajKavadia/widget-inspector-layered
 repository: https://github.com/RajKavadia/widget-inspector-layered
 issue_tracker: https://github.com/RajKavadia/widget-inspector-layered/issues
@@ -24,7 +24,8 @@ screenshots:
     path: screenshots/05-single-layer.png
 
 environment:
-  sdk: ^3.13.2
+  sdk: ^3.6.0
+  flutter: ">=3.27.1"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -44,7 +45,7 @@ dependencies:
   vm_service: ^15.4.0
   dds_service_extensions: ^2.1.0
   logging: ^1.3.0
-  web: ^1.1.2
+  web: ">=1.1.0 <1.1.2"
 
 executables:
   widget_inspector_layered: widgetscape_mcp
